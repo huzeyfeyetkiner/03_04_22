@@ -9,12 +9,12 @@ public class Main {
 		int number1 = s.nextInt();
 		System.out.println("Enter the second variable");
 		int number2 = s.nextInt();
+		// 1 = 10, 2=20
+		number1 = number1 + number2; //30
+		number2 = number1 - number2; //10
+		number1 = number1 - number2;
 		
-		int temporary = number1;
-		number1 = number2;
-		number2 = temporary;
-		System.out.println("number1:"+number1+"\n"+"number2:"+number2);
-		
+		System.out.println(number1 + " " + number2);
 		
 	}
 
